@@ -1,0 +1,55 @@
+{
+  "name": "ecroptoday",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",   
+    "axios": "^1.7.8",
+    "bootstrap": "^5.3.3",
+    "dompurify": "^3.3.1",
+    "eslint-config-react-app": "^7.0.1",
+    "firebase": "^12.7.0",
+    "lucide-react": "^0.563.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.16.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "5.0.1",
+    "react-share": "^5.2.2",
+    "sitemap": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=development react-scripts start",
+    "build": "cross-env REACT_APP_ENV=production GENERATE_SOURCEMAP=false react-scripts build",
+    "generate-sitemap": "node generate-sitemap.js && node generate-sitemap_index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "cross-env REACT_APP_ENV=development react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}

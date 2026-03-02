@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+      website:
+      build: .
+      container_name: ecroptodayimage
+      ports:
+          -'3500'
+          stdin_open: true
+          tty: true
